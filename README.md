@@ -23,3 +23,11 @@ Alternatively, you can install ApoplastP on your machine to run it locally.
 For detailed installation instructions see here: http://apoplastp.csiro.au/software.html
 
 For help on how to interpret the output format, see http://apoplastp.csiro.au/output.html
+
+
+#### About this fork
+
+This fork just allows users to provide weka and emboss as separate packages to the distribution.
+To add Weka, download Weka 3.8.1 and point the environment variable `WEKA38` to the directory containing the `weka.jar` file.
+
+To add emboss, just make sure that `pepstats` is available somewhere on your `PATH`.
